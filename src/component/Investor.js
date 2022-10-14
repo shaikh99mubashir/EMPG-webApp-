@@ -38,7 +38,8 @@ const Investor = () => {
         <div className="col-6">
           <h4 style={{fontWeight:700}}>Contact Us</h4>
           <label className='text-muted mt-3' style={{fontWeight:700}}>Your Name *</label>
-          <br />
+          <br/>
+          <br/>
           <input type="text"  style={{padding:"10px 250px 10px 10px",borderRadius:5, bordercolor:'#919191', outline:'none'}}/>
           <label className='text-muted mt-3' style={{fontWeight:700}}>Email Adress *</label>
           <br />
@@ -47,7 +48,7 @@ const Investor = () => {
           <label className='text-muted mt-3' style={{fontWeight:700}}>Subject *</label>
           <br />
           <input type="text"  style={{padding:"10px 250px 10px 10px",borderRadius:5, bordercolor:'#919191', outline:'none'}}/>
-          
+          <br/>
           <label className='text-muted mt-3' style={{fontWeight:700}}>Your Message *</label>
           <br />
           <input type="text"  style={{padding:"10px 250px 100px 10px",borderRadius:5, bordercolor:'#919191', outline:'none'}}/>
